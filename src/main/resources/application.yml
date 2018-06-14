@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: SomeCoolName
+management:
+  endpoint:
+    web:
+      exposure:
+        inclue: "*"
